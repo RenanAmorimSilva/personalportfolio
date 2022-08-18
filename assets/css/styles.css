@@ -4,7 +4,7 @@
 /*===== VARIABLES CSS =====*/
 :root{
     --header-height: 3rem;
-    --font-medium: 500;
+    --font-medium: 600;
 }
 
 /*===== Colores =====*/
@@ -136,7 +136,7 @@ img{
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(255,255,255,.3);
+        background-color: rgba(300,300,300,.5);
         transition: .5s;
         backdrop-filter: blur(10px);
     }
@@ -412,10 +412,14 @@ img{
 /* For small devices */
 @media screen and (max-width: 430px) {
   .home__img {
-    width: 280px;
+   width: 350px;
+   height: 400px;
   }
   .home__container{
-    height: 550px ;
+    height: 500px ;
+  }
+  .home__title{
+    font-size: 75px;
   }
 }
 

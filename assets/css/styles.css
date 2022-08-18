@@ -410,9 +410,12 @@ img{
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 430px) {
   .home__img {
-    width: 230px;
+    width: 280px;
+  }
+  .home__container{
+    height: 550px ;
   }
 }
 
@@ -523,7 +526,7 @@ img{
     }
     .home__img {
         width: 500px;
-        right: 24%;
+        right: 4%;
     }
     
 }

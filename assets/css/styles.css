@@ -136,7 +136,7 @@ img{
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(300,300,300,.5);
+        background-color: rgba(300,300,300,.7);
         transition: .5s;
         backdrop-filter: blur(10px);
     }
@@ -413,7 +413,7 @@ img{
 @media screen and (max-width: 430px) {
   .home__img {
    width: 350px;
-   height: 400px;
+   height:400px;
   }
   .home__container{
     height: 500px ;
